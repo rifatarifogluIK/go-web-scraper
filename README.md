@@ -37,7 +37,7 @@ A  web scraper written in **Go**. This tool is designed to perform basic site an
 The tool generates the following files in the project directory:
 * `screenshot.png`: The screenshot of the site.
 * `links.txt`: A list of all extracted URLs.
-* `cekilen.html`: The source code of the target page.
+* `site.html`: The source code of the target page.
 
 ---
 *Created for educational purposes.*
