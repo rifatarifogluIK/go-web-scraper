@@ -32,7 +32,7 @@ func collector(web string) error {
 		} else {
 			fmt.Println("Siteye Erişilemedi,Hata Kodu:", r.StatusCode)
 		}
-		htmlContent = (r.Body)
+		htmlContent = r.Body
 	})
 
 	c.OnHTML("a", func(e *colly.HTMLElement) {
@@ -93,6 +93,7 @@ func main() {
 	}
 	fmt.Println("Scraper Başari ile Çalişti")
 }
+
 
 
 
