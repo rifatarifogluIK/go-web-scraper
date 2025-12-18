@@ -76,7 +76,7 @@ func captureScreenshot(ctx context.Context, targetUrl string) error {
 }
 
 func main() {
-	if len(os.Args) < 2 {
+	if len(os.Args) != 2 {
 		fmt.Println("Kullanim: go run main.go <hedef_url>")
 		os.Exit(1)
 	}
@@ -93,5 +93,6 @@ func main() {
 	}
 	fmt.Println("Scraper Başari ile Çalişti")
 }
+
 
 
